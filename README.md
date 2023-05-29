@@ -1,4 +1,4 @@
-<h1 align="center"> <img src="/home/joshi/Aditya/React-apps/databiz/src/assets/favicon.png"/> dataBiz </h1>
+<h1 align="center"> dataBiz </h1>
 
 #### dataBiz is a website built with React and Tailwind Css. It also uses react-icons and react-typed libraries.
 
