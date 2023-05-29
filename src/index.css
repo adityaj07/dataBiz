@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
- background: #000300;
- font-family: 'Red Hat Display', sans-serif;
+body {
+  background:linear-gradient(to bottom, #000300, #000300, #000300, #000300, #000300, #101a10, #172a1a, #1e3c24, #2a673c, #309658, #2cc877, #00fd9a);
+  font-family: "Red Hat Display", sans-serif;
 }
