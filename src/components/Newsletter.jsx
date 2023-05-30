@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Newsletter = () => {
   return (
-    <div className='w-full  mx-auto  bg-black py-16 px-4 text-white' >
+    <div className='w-full  mx-auto  bg-black py-20 px-4 text-white' >
         <div className='max-w-[1240px] mx-auto px-6 grid lg:grid-cols-3 gap-4'>
             <div className='lg:col-span-2'>
                 <h1 className='text-3xl md:text-4xl font-medium'>Want tips & tricks to optimize your flow ?</h1>

@@ -4,7 +4,7 @@ import Button from './Button';
 
 const Analytics = () => {
   return (
-    <div className='w-full mx-auto  bg-white py-16 px-4'>
+    <div className='w-full mx-auto  bg-white py-20 px-4'>
         <div className='max-w-[1240px] mx-auto px-6 grid md:grid-cols-2 gap-4'>
             <img src={AnalyticSvg} className='w-[500px] mx-auto my-4' alt="analytics" />
             <div className='flex flex-col justify-center'>
