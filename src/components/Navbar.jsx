@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
+import Button from "./Button";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -11,22 +12,17 @@ const Navbar = () => {
   return (
     <nav className="max-w-[1240px] flex justify-between items-center h-24 px-4 m-auto text-white">
       <h1 className="text-3xl font-bold text-[#00df9a]">dataBiz.</h1>
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex items-center gap-2">
         <li className="text-xl m-4 cursor-pointer hover:text-[#00df9a] transition-colors duration-100">
           Home
         </li>
         <li className="text-xl m-4 cursor-pointer hover:text-[#00df9a] transition-colors duration-100">
-          Company
+          Account
         </li>
         <li className="text-xl m-4 cursor-pointer hover:text-[#00df9a] transition-colors duration-100">
-          Resources
+          Sign In
         </li>
-        <li className="text-xl m-4 cursor-pointer hover:text-[#00df9a] transition-colors duration-100">
-          About
-        </li>
-        <li className="text-xl m-4 cursor-pointer hover:text-[#00df9a] transition-colors duration-100">
-          Contact
-        </li>
+       <Button text="Get Started" className="bg-white text-black hover:shadow-[#00fd9a]-lg hover:text-white transition-all duration-200"/>
       </ul>
 
       <div onClick={handleNavToggle} className="block md:hidden">
