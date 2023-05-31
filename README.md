@@ -12,7 +12,7 @@
 
 ## Screenshots: 
 
-## Desktop View:
+### Desktop View:
 
 <table>
   <tr>
@@ -33,7 +33,7 @@
   </tr>
 </table>
 
-## Mobile View:
+### Mobile View:
 <table>
   <tr>
     <td>
