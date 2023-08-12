@@ -16,7 +16,7 @@ const Hero = () => {
           <p className="text-xl sm:text-2xl md:text-3xl">
             Fast, flexible financing for
             <TypeAnimation
-              sequence={["B2B", 2000, "B2C", 2000, "SaaS", 2000]}
+              sequence={["B2B", 2000, "Saas", 2000, "B2C", 2000, "D2C", 2000]}
               wrapper="span"
               cursor
               repeat={Infinity}
@@ -30,7 +30,7 @@ const Hero = () => {
             />
           </p>
         </div>
-        <p className="text-xl md:text-2xl px-4 mt-6 text-gray-400">Monitor your data analytics to increase revenue for B2B, B2C & SaaS platforms.</p>
+        <p className="text-xl md:text-2xl px-4 mt-6 text-gray-400">Monitor your data analytics to increase revenue for B2B, B2C, D2C & SaaS platforms.</p>
         <Button text="Get Started" className="mx-auto"/>
       </div>
     </div>
